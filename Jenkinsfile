@@ -22,7 +22,7 @@ pipeline {
         }
         stage('Code Analysis') {
             steps {
-                echo 'Using tool: SonarQube
+                echo 'Using tool: SonarQube'
                 echo 'Analyse and check the quality of the code, output any errors'
             }
         }
@@ -45,7 +45,7 @@ pipeline {
         }
         stage('Deploy to Production') {
             steps {
-                echo "Deploying to production environment on AWS EC2 instance"
+                echo 'Deploying to production environment on AWS EC2 instance'
             }
         }
     }
