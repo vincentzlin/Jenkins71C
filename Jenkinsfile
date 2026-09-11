@@ -17,7 +17,7 @@ pipeline {
         stage(' Unit and Integration Tests') {
             steps {
                echo 'Using tools: JUnit and Selenium'
-               echo 'Run Unit tests and Integration tests to ensure the code is functioning as expected'
+               echo 'Run Unit tests and Integratiohuyukgyuujkljklin tests to ensure the code is functioning as expected'
             }
         }
         stage('Code Analysis') {
